@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Forms</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <img class="Image" alt="Kroger logo" width="90px" src="https://www.kroger.com/content/v2/binary/image/kroger_svg_logo--freshcart_kroger_color_logo--kroger.svg" style="height: auto; width: 90px;">
+    <h5>Create Your Account</h5>
+    <p class="aboveUnderline">Start saving right away when you create your digital account</p>
+    <p class="underline">_______________________________</p>
+
+    <div id="biggerBox">
+        <form id="registration">
+            <div id="bigBox">
+                <fieldset>
+                
+                    <label for="first-name">First Name</label><br>
+                    <input style="width: 480px;" type ="text" id="first-name" name="first-name" required><br></br>
+                
+                
+                    <label for="last-name">Last Name</label></br>
+                    <input style="width: 480px;" type ="text" id="last-name" name="last-name" required><br></br>
+
+                    <label for="email">Email Address</label><br>
+                    <input style="width: 480px;" type="email" id="email" name="email"><br><br>
+                
+                
+                    <label for="password">Password</label><br>
+                    <p class="small-text">Must be at least 8 characters.</p>
+                    <p class="small text">Must have at least one letter and one number.</p>
+                    <input style="width: 480px;" type="password" id="password" name="password" minlength="8" required><br><br>
+                    <h3><svg class="kds-Icon kds-Icon--utilityLarge" focusable="false" fill="currentColor" width="1em" height="1em" viewBox="0 0 16 16" data-name="Icon"><path d="M6.484 8.452a.375.375 0 00-.375.375v1.341a.375.375 0 00.75 0v-1.34a.375.375 0 00-.375-.376zM8 8.452a.375.375 0 00-.375.375v1.341a.375.375 0 00.75 0v-1.34A.375.375 0 008 8.451zM9.516 8.452a.375.375 0 00-.375.375v1.341a.375.375 0 00.75 0v-1.34a.375.375 0 00-.375-.376zM4.969 8.452a.375.375 0 00-.375.375v2.127a.375.375 0 00.75 0V8.827a.375.375 0 00-.375-.375zM11.031 8.452a.375.375 0 00-.375.375v2.127a.375.375 0 00.75 0V8.827a.375.375 0 00-.375-.375z"></path><path d="M13.41 2.958H2.59a1.377 1.377 0 00-1.375 1.375v7.334a1.377 1.377 0 001.375 1.375h10.82a1.377 1.377 0 001.375-1.375V4.333a1.377 1.377 0 00-1.375-1.375zm-10.82.75h10.82a.626.626 0 01.625.625v1.98H1.965v-1.98a.626.626 0 01.625-.625zm10.82 8.584H2.59a.626.626 0 01-.625-.625V7.063h12.07v4.604a.626.626 0 01-.625.625z"></path></svg> Plus Card or Alt ID
+                    </h3>
+
+                    <p>Register your existing card to access hundreds of digital coupons, track your savings, check your Fuel Points, and more. If you don't have one we'll create a virtual card for you.</p>
+                    <p class="bold">Your Plus Card or Alt ID Number:
+                    <ul>
+                        <li>Must be between 10 and 13 digits</li>
+                        <li>Cannot start with a 0</li>
+                    </ul>
+                    </p>
+
+                    <label for="Plus card">Plus Card Number or Alt ID Number(Optional)</label>
+                    <p class="small-text">Add your 12 or 13-digit Plus Card number found on the back of your current card, or enter your 10-digit Alt ID number used at checkout in-store.</p>
+
+                    <input style="width: 480px;" placeholder="Enter Card or Alt ID Number" id="Plus card" name="Plus Card" minlength="10" maxlength="13"><br><br>
+
+                    <p>By creating an account, you are agreeing to Kroger's<a href="https://www.kroger.com/i/terms"> Terms and Conditions</a> and <a href="https://www.kroger.com/i/privacy-policy">Privacy Policy.</a> You're also agreeing to receive account-related emails, including specials and promotions, and other purchase-based advertising to improve your experience. You can opt out of these preferences at any time from My Account.</p>
+                
+                    <input style="background-color: #4477CE; color: white; text-align: center; border-radius: 1000px;width: 500px;" type="submit" value ="Create Account">
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
